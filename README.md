@@ -35,9 +35,7 @@ class Traininfo(admin.ModelAdmin):
 ```
 
 ## OUTPUT
-
-![output](./orm.png)
-
+![orm](https://user-images.githubusercontent.com/118791778/209552854-35b2006e-5455-49f2-9bdb-ddfcdab8ee1e.png)
 
 ## RESULT
 1. Own meaningful table name.
