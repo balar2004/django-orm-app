@@ -18,10 +18,16 @@ Type the appropriate code for your table and provide appropriate data types to t
 
 ### STEP 3:
 Create a report about in readme.md file and upload the django-orm-app folder to your remote repository
+<<<<<<< HEAD
 
 Write your own steps
 
 ## PROGRAM
+=======
+
+## PROGRAM
+
+>>>>>>> 111625dbf029b94479f87d12f7c2903668b484c2
 ```
 from django.db import models
 from django.contrib import admin
@@ -35,10 +41,27 @@ class Train(models.Model):
 class Traininfo(admin.ModelAdmin):
     list_display = ("Trainno","Passengername","From","To","Noofseat")
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> 111625dbf029b94479f87d12f7c2903668b484c2
 ## OUTPUT
-
-![Output](./orm.png)
-
+![orm](https://user-images.githubusercontent.com/118791778/209552854-35b2006e-5455-49f2-9bdb-ddfcdab8ee1e.png)
 
 ## RESULT
+1. Own meaningful table name.
+
+<<<<<<< HEAD
+![Output](./orm.png)
+=======
+2. Used a primary key.
+>>>>>>> 111625dbf029b94479f87d12f7c2903668b484c2
+
+3. A minimum of five fields to be used.
+
+<<<<<<< HEAD
+## RESULT
 Thus the project is developed to have Train Ticketbooking information database
+=======
+4. Populate the table with a minimum of ten records.
+>>>>>>> 111625dbf029b94479f87d12f7c2903668b484c2
